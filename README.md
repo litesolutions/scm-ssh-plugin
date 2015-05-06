@@ -6,7 +6,7 @@ within [SCM Manager](http://www.scm-manager.org/).
 ## About this version
 
 This is a fork (with a minor fix) of the [original plugin](http://oss.aquenos.com/scm/scm-ssh-plugin/).
-The original plugin stopped working at a certain point in time.
+The original plugin [stopped working at a certain point in time](https://github.com/litesolutions/scm-ssh-plugin/wiki).
 At [Lite Solutions](http://www.litesolutions.es) we needed certificate based SSH
 access to our git repositories so we decided to fix it and release the fix.
 
@@ -45,7 +45,7 @@ project.
 ## Changelog
 
 - Release 1.0.1 (May 6th, 2015):
-	- Fixed compatibility with SCM Manager release 33 and higher.
+	- Fixed compatibility with SCM Manager release 1.33 and higher.
 - Release 1.0.0 (November 14th, 2012):
 	- First public release of scm-ssh-plugin, intended for use with SCM Manager 
 release 1.22.
