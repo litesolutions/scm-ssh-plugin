@@ -16,7 +16,7 @@
   <version>1.0.1</version>
   <name>${project.artifactId}</name>
   <description>SSH support for SCM.</description>
-  <url>http://oss.aquenos.com/scm/scm-ssh-plugin/</url>
+  <url>https://github.com/litesolutions/scm-ssh-plugin/</url>
 
   <licenses>
     <license>
