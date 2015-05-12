@@ -10,9 +10,15 @@ The original plugin [stopped working at a certain point in time](https://github.
 At [Lite Solutions](http://www.litesolutions.es) we needed certificate based SSH
 access to our git repositories so we decided to fix it and release the fix.
 
-The original documentation follows as copied when we forked the project.
+### Requirements
+
+As of a [bug](https://bitbucket.org/sdorra/scm-manager/issue/720/plug-in-installation-fails-only-in-linux) in SCM Manager 1.45 and earlier you should use the _[dist](https://github.com/litesolutions/scm-ssh-plugin/tree/master/dist)_ version 
+with SCM Manager 1.46 or later. Or you could build yourself on a Linux system,
+that might work as well.
 
 ## Documentation
+
+The original documentation follows as copied when we forked the project.
 
 Setting up the SSH plugin is quite simple. Just download the plugin file and 
 add it using plugin manager in the SCM administrative web-interface.
