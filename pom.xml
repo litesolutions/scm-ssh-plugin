@@ -7,13 +7,13 @@
   <parent>
     <artifactId>scm-plugins</artifactId>
     <groupId>sonia.scm.plugins</groupId>
-    <version>1.45</version>
+    <version>1.49</version>
   </parent>
 
   <groupId>com.aquenos.scm</groupId>
   <artifactId>scm-ssh-plugin</artifactId>
   <packaging>jar</packaging>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <name>${project.artifactId}</name>
   <description>SSH support for SCM.</description>
   <url>https://github.com/litesolutions/scm-ssh-plugin/</url>
@@ -55,7 +55,7 @@
     <dependency>
       <groupId>org.bouncycastle</groupId>
       <artifactId>bcpkix-jdk15on</artifactId>
-      <version>1.47</version>
+      <version>1.49</version>
     </dependency>
 
     <!-- test scope -->

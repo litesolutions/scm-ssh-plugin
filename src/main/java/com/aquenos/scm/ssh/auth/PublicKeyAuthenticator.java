@@ -65,7 +65,7 @@ public class PublicKeyAuthenticator {
 			PublicKey publicKey) {
 		User user = userManager.get(username);
 		if (user != null) {
-			if (userManager.getDefaultType().equals(user.getType())) {
+			//if (userManager.getDefaultType().equals(user.getType())) {
 				List<PublicKey> keysForUser = getPublicKeysForUser(user);
 				if (keysForUser == null) {
 					return AuthenticationResult.NOT_FOUND;
@@ -76,7 +76,7 @@ public class PublicKeyAuthenticator {
 				} else {
 					return AuthenticationResult.FAILED;
 				}
-			}
+			//}
 		}
 		return AuthenticationResult.NOT_FOUND;
 	}
