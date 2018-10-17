@@ -43,7 +43,7 @@ host keys.
 
 This program and the accompanying materials are made available under the terms 
 of the [Eclipse Public License](http://www.eclipse.org/legal/epl-v10.html). By 
-downloading the software you agree to be bound the the terms of this license.
+downloading the software you agree to be bound the terms of this license.
 
 The scm-ssh-plugin uses the SSH server implementation from the [Apache Mina](http://mina.apache.org/) 
 project.
